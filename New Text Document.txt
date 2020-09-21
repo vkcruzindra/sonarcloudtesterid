@@ -1,0 +1,6 @@
+sonar-scanner -X ^
+  -D"sonar.organization=ventusrex" ^
+  -D"sonar.projectKey=ventusrex_sonarcloudtester" ^
+  -D"sonar.sources=." ^
+  -D"sonar.host.url=https://sonarcloud.io" ^
+  -Dsonar.userHome=`pwd`/.sonar
